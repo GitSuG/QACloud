@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.839" tests="19" errors="0" skipped="10" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ghorpade/eclipse-tekarch-ws/TestGoogle"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ghorpade/eclipse-tekarch-ws/TestGoogle"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/t6/lw009_yx65nfl_1ljh5x_z880000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/ghorpade/eclipse-tekarch-ws/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf17384412716805595415.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ghorpade/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="12.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ghorpade"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="ghorpade"/>
+    <property name="java.class.path" value="/Users/ghorpade/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.18.1.20211011-2139/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/ghorpade/eclipse-tekarch-ws/TestGoogle/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="searchTest1" classname="com.tests.GoogleSearchTests1" time="0.26">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;callout&apos;]&quot;}&#10;  (Session info: chrome=108.0.5359.124)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Sujatas-MacBook-Air.local&apos;, ip: &apos;2601:647:6300:53e0:0:0:0:94e9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.4&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/t6/lw009_yx65n...}, goog:chromeOptions: {debuggerAddress: localhost:57436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 16f9cbfde96874b666d3f75779f176a1&#10;*** Element info: {Using=name, value=callout}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='callout']"}
+  (Session info: chrome=108.0.5359.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sujatas-MacBook-Air.local', ip: '2601:647:6300:53e0:0:0:0:94e9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/t6/lw009_yx65n...}, goog:chromeOptions: {debuggerAddress: localhost:57436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16f9cbfde96874b666d3f75779f176a1
+*** Element info: {Using=name, value=callout}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tests.GoogleSearchTests1.searchTest1(GoogleSearchTests1.java:21)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNG] [WARN] Ignoring duplicate listener : listener.pkg.SearchListener
+2022-12-31 18:01:59,197 main ERROR File contains an invalid element or attribute "filePattern"
+2022-12-31 18:01:59,202 main ERROR appender File has no parameter that matches element Policies
+Start of TestContext: Test
+18:01:59.443 [TestNG-test=Test-1] INFO  com.tests.BaseDriverSetup - ----------------------------20221231----------------------------
+18:01:59.443 [TestNG-test=Test-2] INFO  com.tests.BaseDriverSetup - ----------------------------20221231----------------------------
+18:02:09.378 [TestNG-test=Test-2] INFO  com.tests.BaseDriverSetup - [LOG] Launching 'Chrome Browser'
+18:02:09.378 [TestNG-test=Test-1] INFO  com.tests.BaseDriverSetup - [LOG] Launching 'Chrome Browser'
+chrome : browser
+chrome : browser
+18:02:15.085 [TestNG-test=Test-1] INFO  com.tests.BaseDriverSetup - [LOG] Launching 'google.com' Website
+18:02:16.136 [TestNG-test=Test-2] INFO  com.tests.BaseDriverSetup - [LOG] Launching 'google.com' Website
+Start of Test: searchTest1
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+StartiStarting ng ChromeDriver 10Chro8.0.5359.m7eDriver 108.0.5359.71 (1e0e31 (868ee06e91ad636a874420e3ca3a1e0e3868ee06ee3756ac-refs/branch-heads/5359@{#1016}) on p91ad636a8o7r44t20e 33ca3ae36673
+Only7 local c56ac-reonnections arfs/beranch-heads/5359@{#1016}) on port 16802
+Only local connections are allowed.
+Please  see htaltlps://chromedriver.chromium.org/security-consowed.ider
+atiPlons ease see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver fsora suggestions on keeping ChromeDriver safe.
+fe.
+CChromeDrivher was started sromeDriver was staruccessfullyted successfully.
+.
+Dec 31, 2022 6:02:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Dec 31, 2022 6:02:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="searchTest1" classname="com.tests.GoogleSearchTests1" time="0.613"/>
+  <testcase name="searchTest1" classname="com.tests.GoogleSearchTests1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchTest21" classname="com.tests.GoogleSearchTests2" time="0.053">
+    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Sujatas-MacBook-Air.local&apos;, ip: &apos;2601:647:6300:53e0:0:0:0:94e9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.4&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/t6/lw009_yx65n...}, goog:chromeOptions: {debuggerAddress: localhost:57436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 16f9cbfde96874b666d3f75779f176a1&#10;*** Element info: {Using=name, value=callout}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sujatas-MacBook-Air.local', ip: '2601:647:6300:53e0:0:0:0:94e9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/t6/lw009_yx65n...}, goog:chromeOptions: {debuggerAddress: localhost:57436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16f9cbfde96874b666d3f75779f176a1
+*** Element info: {Using=name, value=callout}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.tests.GoogleSearchTests2.searchTest21(GoogleSearchTests2.java:21)
+</failure>
+    <system-out><![CDATA[Failed Test: searchTest1
+18:02:18.492 [TestNG-test=Test-1] INFO  com.tests.BaseDriverSetup - [LOG] Shutting down ...
+Start of Test: searchTest21
+]]></system-out>
+  </testcase>
+  <testcase name="searchTest21" classname="com.tests.GoogleSearchTests2" time="0.527"/>
+  <testcase name="searchTest21" classname="com.tests.GoogleSearchTests2" time="0.452"/>
+  <testcase name="teardown" classname="com.tests.GoogleSearchTests2" time="0.078">
+    <failure message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Sujatas-MacBook-Air.local&apos;, ip: &apos;2601:647:6300:53e0:0:0:0:94e9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.4&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/t6/lw009_yx65n...}, goog:chromeOptions: {debuggerAddress: localhost:57436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 16f9cbfde96874b666d3f75779f176a1" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sujatas-MacBook-Air.local', ip: '2601:647:6300:53e0:0:0:0:94e9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/t6/lw009_yx65n...}, goog:chromeOptions: {debuggerAddress: localhost:57436}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 16f9cbfde96874b666d3f75779f176a1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.tests.BaseDriverSetup.teardown(BaseDriverSetup.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+    <system-out><![CDATA[Failed Test: searchTest21
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.tests.GoogleSearchTests2" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped Test: searchTest22
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.tests.GoogleSearchTests2" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped Test: searchTest23
+]]></system-out>
+  </testcase>
+  <testcase name="setup" classname="com.tests.GoogleSearchTests2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.tests.GoogleSearchTests2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchTest22" classname="com.tests.GoogleSearchTests2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchTest22" classname="com.tests.GoogleSearchTests2" time="0.521"/>
+  <testcase name="searchTest22" classname="com.tests.GoogleSearchTests2" time="0.416"/>
+  <testcase name="searchTest23" classname="com.tests.GoogleSearchTests2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="searchTest23" classname="com.tests.GoogleSearchTests2" time="0">
+    <skipped/>
+    <system-out><![CDATA[Successful Test: searchTest22
+18:02:42.419 [main] INFO  com.tests.BaseDriverSetup - [LOG] Shutting down ...
+18:02:42.421 [main] INFO  com.tests.BaseDriverSetup - ----------------------------20221231----------------------------
+18:02:44.242 [main] INFO  com.tests.BaseDriverSetup - [LOG] Launching 'Firefox Browser'
+firefox : browser
+18:02:45.284 [main] INFO  com.tests.BaseDriverSetup - [LOG] Launching 'google.com' Website
+Start of Test: searchTest23
+18:02:48.294 [main] WARN  com.tests.BaseDriverSetup - [LOG - Warning] Test is skipped
+]]></system-out>
+    <system-err><![CDATA[1672538562007	Marionette	INFO	Stopped listening on port 58082
+1672538562435	geckodriver	INFO	Listening on 127.0.0.1:19867
+1672538562450	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/t6/lw009_yx65nfl_1ljh5x_z880000gn/T/rust_mozprofileIPqRox"
+2022-12-31 18:02:42.860 plugin-container[14638:703824] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-31 18:02:42.860 plugin-container[14638:703824] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-31 18:02:42.864 plugin-container[14638:703824] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-31 18:02:42.864 plugin-container[14638:703824] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-31 18:02:42.865 plugin-container[14638:703830] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-31 18:02:42.865 plugin-container[14638:703830] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672538562884	Marionette	INFO	Marionette enabled
+1672538562914	Marionette	INFO	Listening on port 58155
+Read port: 58155
+1672538563144	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/t6/lw009_yx65nfl_1ljh5x_z880000gn/T/rust_mozprofileIPqRox/search.json.mozlz4", (void 0)))
+Dec 31, 2022 6:02:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="searchTest23" classname="com.tests.GoogleSearchTests2" time="0">
+    <skipped/>
+    <system-out><![CDATA[Successful Test: searchTest22
+18:03:02.106 [main] INFO  com.tests.BaseDriverSetup - [LOG] Shutting down ...
+18:03:02.109 [main] INFO  com.tests.BaseDriverSetup - ----------------------------20221231----------------------------
+18:03:03.894 [main] INFO  com.tests.BaseDriverSetup - [LOG] Launching 'Firefox Browser'
+firefox : browser
+18:03:04.818 [main] INFO  com.tests.BaseDriverSetup - [LOG] Launching 'google.com' Website
+Start of Test: searchTest23
+18:03:07.830 [main] WARN  com.tests.BaseDriverSetup - [LOG - Warning] Test is skipped
+]]></system-out>
+    <system-err><![CDATA[1672538581689	Marionette	INFO	Stopped listening on port 58464
+1672538582123	geckodriver	INFO	Listening on 127.0.0.1:4636
+1672538582137	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/t6/lw009_yx65nfl_1ljh5x_z880000gn/T/rust_mozprofilejH6lX4"
+2022-12-31 18:03:02.551 plugin-container[14670:705029] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-31 18:03:02.551 plugin-container[14670:705029] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-31 18:03:02.558 plugin-container[14670:705029] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-31 18:03:02.558 plugin-container[14670:705029] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-12-31 18:03:02.558 plugin-container[14670:705033] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-12-31 18:03:02.559 plugin-container[14670:705033] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1672538582569	Marionette	INFO	Marionette enabled
+1672538582597	Marionette	INFO	Listening on port 58579
+Read port: 58579
+1672538582826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/t6/lw009_yx65nfl_1ljh5x_z880000gn/T/rust_mozprofilejH6lX4/search.json.mozlz4", (void 0)))
+Dec 31, 2022 6:03:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.tests.GoogleSearchTests1" time="0.448">
+    <failure message="Tried to run command without establishing a connection&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Sujatas-MacBook-Air.local&apos;, ip: &apos;2601:647:6300:53e0:0:0:0:94e9%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.4&apos;, java.version: &apos;17.0.2&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.5.0, moz:processID: 14637, moz:profile: /var/folders/t6/lw009_yx65n..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6fa23db6-7c31-4433-91ba-98809a41a9fc" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Sujatas-MacBook-Air.local', ip: '2601:647:6300:53e0:0:0:0:94e9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.5.0, moz:processID: 14637, moz:profile: /var/folders/t6/lw009_yx65n..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fa23db6-7c31-4433-91ba-98809a41a9fc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.tests.BaseDriverSetup.setup(BaseDriverSetup.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</failure>
+    <system-out><![CDATA[Skipped Test: searchTest23
+18:02:48.714 [main] INFO  com.tests.BaseDriverSetup - [LOG] Shutting down ...
+Start of TestContext: GoogleTest-chrome
+18:02:48.732 [main] INFO  com.tests.BaseDriverSetup - ----------------------------20221231----------------------------
+18:02:48.733 [main] ERROR com.tests.BaseDriverSetup - [LOG - ERROR] No such browser
+No such browser option
+safari : browser
+]]></system-out>
+    <system-err><![CDATA[1672538568306	Marionette	INFO	Stopped listening on port 58155
+]]></system-err>
+  </testcase>
+  <testcase name="teardown" classname="com.tests.GoogleSearchTests1" time="0">
+    <skipped/>
+    <system-out><![CDATA[Skipped Test: searchTest1
+]]></system-out>
+  </testcase>
+</testsuite>

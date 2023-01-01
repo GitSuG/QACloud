@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- <suite name="GoogleSuite-Parallel" thread-count="2" parallel="tests"> -->
+<suite name="GoogleSuite-Seq">
+		<test name="GoogleTest-chrome">
+		<!-- <test thread-count="5" name="Test" parallel="methods"> -->
+		<parameter name="browser" value="safari"></parameter>
+		<classes>
+			<class name="com.tests.GoogleSearchTests1" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="GoogleTest-firefox"><!--  thread-count="2" parallel="methods" -->
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.tests.GoogleSearchTests2" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FirefoxSuite-packageLevel">
+<listeners>
+	<listener class-name="listener.pkg.SearchListener"></listener> 
+</listeners>
+<parameter name="browser" value="firefox"></parameter>
+  <test name="Test_ParallelPkg">
+    <packages>
+      <package name="com.tests"/>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

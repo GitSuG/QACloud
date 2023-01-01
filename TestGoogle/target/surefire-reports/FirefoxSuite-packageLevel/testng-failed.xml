@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FirefoxSuite-packageLevel]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="listener.pkg.SearchListener"/>
+  </listeners>
+  <test thread-count="5" name="Test_ParallelPkg(failed)" verbose="0">
+    <classes>
+      <class name="com.tests.GoogleSearchTests2">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="searchTest23"/>
+        </methods>
+      </class> <!-- com.tests.GoogleSearchTests2 -->
+    </classes>
+  </test> <!-- Test_ParallelPkg(failed) -->
+</suite> <!-- Failed suite [FirefoxSuite-packageLevel] -->

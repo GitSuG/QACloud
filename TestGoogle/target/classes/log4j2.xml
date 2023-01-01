@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	    <!-- 
+		<RollingFile name="rollingFile"
+			fileName="target/rolling/classLevelRolling.log"
+			filePattern="target/sfdc-%d{yyyy-MM-dd-HH-mm}-%i.log" >
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd-HH:mm:ss} %-5p %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="1MB" />
+			</Policies>
+		</RollingFile>	
+       -->	
+		<File name="File" fileName="target/logs/googleSearch.log"
+			filePattern="target/sfdc-%d{yyyy-MM-dd-HH-mm}-%i.log" append="true">
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd-HH:mm:ss} %-5p %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="1MB" />
+			</Policies>
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="trace">
+			<AppenderRef ref="Console" /> 
+			<AppenderRef ref="File" />
+			<!-- <AppenderRef ref="rollingFile" />-->
+		</Root>
+	</Loggers>
+</Configuration>
