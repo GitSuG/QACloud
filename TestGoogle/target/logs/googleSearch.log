@@ -1,77 +1,45 @@
-2022-12-31-17:45:09 INFO  [LOG] Launching 'Chrome Browser'
-2022-12-31-17:45:09 INFO  [LOG] Launching 'Chrome Browser'
-2022-12-31-17:45:25 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-17:45:25 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-17:45:29 INFO  [LOG] Shutting down ...
-2022-12-31-17:45:35 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-17:45:37 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-17:45:40 INFO  [LOG] Dismissing pop-up
-2022-12-31-17:45:41 INFO  [LOG] Shutting down ...
-2022-12-31-17:45:44 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-17:45:45 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-17:45:49 INFO  [LOG] Searching Test21
-2022-12-31-17:45:49 INFO  [LOG] Shutting down ...
-2022-12-31-17:45:51 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-17:45:53 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-17:45:57 INFO  [LOG] Searching Test22
-2022-12-31-17:45:57 INFO  [LOG] Shutting down ...
-2022-12-31-17:45:59 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-17:46:01 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-17:46:04 WARN  [LOG - Warning] Test is skipped
-2022-12-31-17:46:04 INFO  [LOG] Shutting down ...
-2022-12-31-17:46:13 INFO  [LOG] Launching 'Chrome Browser'
-2022-12-31-17:46:21 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-17:46:25 INFO  [LOG] Dismissing pop-up
-2022-12-31-17:46:26 INFO  [LOG] Shutting down ...
-2022-12-31-17:46:31 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-17:46:31 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-17:46:33 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-17:46:34 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-17:46:37 INFO  [LOG] Shutting down ...
-2022-12-31-17:46:39 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-17:46:41 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:01:59 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:01:59 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:02:09 INFO  [LOG] Launching 'Chrome Browser'
-2022-12-31-18:02:09 INFO  [LOG] Launching 'Chrome Browser'
-2022-12-31-18:02:15 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:02:16 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:02:18 INFO  [LOG] Shutting down ...
-2022-12-31-18:02:19 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:02:23 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-18:02:24 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:02:27 INFO  [LOG] Dismissing pop-up
-2022-12-31-18:02:28 INFO  [LOG] Searching News
-2022-12-31-18:02:28 INFO  [LOG] Shutting down ...
-2022-12-31-18:02:28 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:02:30 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-18:02:31 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:02:35 INFO  [LOG] Searching Test21
-2022-12-31-18:02:35 INFO  [LOG] Shutting down ...
-2022-12-31-18:02:35 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:02:37 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-18:02:38 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:02:41 INFO  [LOG] Searching Test22
-2022-12-31-18:02:42 INFO  [LOG] Shutting down ...
-2022-12-31-18:02:42 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:02:44 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-18:02:45 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:02:48 WARN  [LOG - Warning] Test is skipped
-2022-12-31-18:02:48 INFO  [LOG] Shutting down ...
-2022-12-31-18:02:48 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:02:48 ERROR [LOG - ERROR] No such browser
-2022-12-31-18:02:48 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:02:50 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-18:02:51 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:02:54 INFO  [LOG] Searching Test21
-2022-12-31-18:02:55 INFO  [LOG] Shutting down ...
-2022-12-31-18:02:55 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:02:57 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-18:02:58 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:03:01 INFO  [LOG] Searching Test22
-2022-12-31-18:03:02 INFO  [LOG] Shutting down ...
-2022-12-31-18:03:02 INFO  ----------------------------20221231----------------------------
-2022-12-31-18:03:03 INFO  [LOG] Launching 'Firefox Browser'
-2022-12-31-18:03:04 INFO  [LOG] Launching 'google.com' Website
-2022-12-31-18:03:07 WARN  [LOG - Warning] Test is skipped
-2022-12-31-18:03:08 INFO  [LOG] Shutting down ...
+2023-01-01-23:33:47 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:33:47 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:33:54 INFO  [LOG] Launching 'Chrome Browser'
+2023-01-01-23:33:54 INFO  [LOG] Launching 'Chrome Browser'
+2023-01-01-23:33:59 INFO  [LOG] Launching 'google.com' Website
+2023-01-01-23:34:00 INFO  [LOG] Launching 'google.com' Website
+2023-01-01-23:34:03 INFO  [LOG] Shutting down ...
+2023-01-01-23:34:04 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:34:06 INFO  [LOG] Launching 'Firefox Browser'
+2023-01-01-23:34:07 INFO  [LOG] Launching 'google.com' Website
+2023-01-01-23:34:10 INFO  [LOG] Dismissing pop-up
+2023-01-01-23:34:11 INFO  [LOG] Searching News
+2023-01-01-23:34:11 INFO  [LOG] Shutting down ...
+2023-01-01-23:34:11 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:34:13 INFO  [LOG] Launching 'Firefox Browser'
+2023-01-01-23:34:14 INFO  [LOG] Launching 'google.com' Website
+2023-01-01-23:34:17 INFO  [LOG] Searching Test21
+2023-01-01-23:34:18 INFO  [LOG] Shutting down ...
+2023-01-01-23:34:18 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:34:19 INFO  [LOG] Launching 'Firefox Browser'
+2023-01-01-23:34:20 INFO  [LOG] Launching 'google.com' Website
+2023-01-01-23:34:24 INFO  [LOG] Searching Test22
+2023-01-01-23:34:24 INFO  [LOG] Shutting down ...
+2023-01-01-23:34:24 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:34:26 INFO  [LOG] Launching 'Firefox Browser'
+2023-01-01-23:34:27 INFO  [LOG] Launching 'google.com' Website
+2023-01-01-23:34:30 WARN  [LOG - Warning] Test is skipped
+2023-01-01-23:34:30 INFO  [LOG] Shutting down ...
+2023-01-01-23:34:30 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:34:30 ERROR [LOG - ERROR] No such browser
+2023-01-01-23:34:30 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:34:32 INFO  [LOG] Launching 'Firefox Browser'
+2023-01-01-23:34:33 INFO  [LOG] Launching 'google.com' Website
+2023-01-01-23:34:36 INFO  [LOG] Searching Test21
+2023-01-01-23:34:37 INFO  [LOG] Shutting down ...
+2023-01-01-23:34:37 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:34:38 INFO  [LOG] Launching 'Firefox Browser'
+2023-01-01-23:34:39 INFO  [LOG] Launching 'google.com' Website
+2023-01-01-23:34:43 INFO  [LOG] Searching Test22
+2023-01-01-23:34:43 INFO  [LOG] Shutting down ...
+2023-01-01-23:34:43 INFO  ----------------------------20230101----------------------------
+2023-01-01-23:34:45 INFO  [LOG] Launching 'Firefox Browser'
+2023-01-01-23:34:46 INFO  [LOG] Launching 'google.com' Website
+2023-01-01-23:34:49 WARN  [LOG - Warning] Test is skipped
+2023-01-01-23:34:49 INFO  [LOG] Shutting down ...

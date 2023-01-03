@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UniSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.university.tests.StudentTest">
+        <methods>
+          <include name="loadData"/>
+          <include name="testStudentUniversity_1"/>
+          <include name="testStudentUniversity_3counts"/>
+          <include name="testStudentUniversity_2"/>
+          <include name="testStudentUniversity_4All"/>
+        </methods>
+      </class> <!-- com.university.tests.StudentTest -->
+      <class name="com.university.tests.UniversityTest">
+        <methods>
+          <include name="testUniversity_3"/>
+          <include name="loadData"/>
+          <include name="testUniversity_1usernames"/>
+          <include name="testUniversity_2student"/>
+        </methods>
+      </class> <!-- com.university.tests.UniversityTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [UniSuite] -->

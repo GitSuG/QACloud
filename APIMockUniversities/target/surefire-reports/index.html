@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-UniSuite" class="navigator-link">
+              <span class="suite-name border-passed">UniSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-UniSuite" class="navigator-link ">
+                    <span>uniStudents-testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-UniSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-UniSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-UniSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-UniSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-UniSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-UniSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-UniSuite" class="hide-methods passed suite-UniSuite"> (hide)</a> <!-- hide-methods passed suite-UniSuite -->
+                      <a href="#" panel-name="suite-UniSuite" class="show-methods passed suite-UniSuite"> (show)</a> <!-- show-methods passed suite-UniSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-UniSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniSuite" title="com.university.tests.StudentTest" class="method navigator-link" hash-for-method="testStudentUniversity_1">testStudentUniversity_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniSuite" title="com.university.tests.StudentTest" class="method navigator-link" hash-for-method="testStudentUniversity_2">testStudentUniversity_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniSuite" title="com.university.tests.StudentTest" class="method navigator-link" hash-for-method="testStudentUniversity_3counts">testStudentUniversity_3counts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniSuite" title="com.university.tests.StudentTest" class="method navigator-link" hash-for-method="testStudentUniversity_4All">testStudentUniversity_4All</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniSuite" title="com.university.tests.UniversityTest" class="method navigator-link" hash-for-method="testUniversity_1usernames">testUniversity_1usernames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniSuite" title="com.university.tests.UniversityTest" class="method navigator-link" hash-for-method="testUniversity_2student">testUniversity_2student</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UniSuite" title="com.university.tests.UniversityTest" class="method navigator-link" hash-for-method="testUniversity_3">testUniversity_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-UniSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UniSuite" class="panel UniSuite">
+          <div class="suite-UniSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.university.tests.StudentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStudentUniversity_1">
+                  </a> <!-- testStudentUniversity_1 -->
+                  <span class="method-name">testStudentUniversity_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStudentUniversity_2">
+                  </a> <!-- testStudentUniversity_2 -->
+                  <span class="method-name">testStudentUniversity_2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStudentUniversity_3counts">
+                  </a> <!-- testStudentUniversity_3counts -->
+                  <span class="method-name">testStudentUniversity_3counts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStudentUniversity_4All">
+                  </a> <!-- testStudentUniversity_4All -->
+                  <span class="method-name">testStudentUniversity_4All</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UniSuite-class-passed -->
+          <div class="suite-UniSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.university.tests.UniversityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUniversity_1usernames">
+                  </a> <!-- testUniversity_1usernames -->
+                  <span class="method-name">testUniversity_1usernames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUniversity_2student">
+                  </a> <!-- testUniversity_2student -->
+                  <span class="method-name">testUniversity_2student</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUniversity_3">
+                  </a> <!-- testUniversity_3 -->
+                  <span class="method-name">testUniversity_3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UniSuite-class-passed -->
+        </div> <!-- panel UniSuite -->
+        <div panel-name="test-xml-UniSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ghorpade/eclipse-tekarch-ws/APIMockUniversities/uniStudents-testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;UniSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.university.tests.StudentTest&quot;/&gt;
+      &lt;class name=&quot;com.university.tests.UniversityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- UniSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UniSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UniSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UniSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UniSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UniSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UniSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UniSuite');
+function tableData_UniSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testStudentUniversity_1')
+data.setCell(0, 2, 'com.university.tests.StudentTest')
+data.setCell(0, 3, 221);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testUniversity_2student')
+data.setCell(1, 2, 'com.university.tests.UniversityTest')
+data.setCell(1, 3, 17);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testStudentUniversity_3counts')
+data.setCell(2, 2, 'com.university.tests.StudentTest')
+data.setCell(2, 3, 16);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testUniversity_3')
+data.setCell(3, 2, 'com.university.tests.UniversityTest')
+data.setCell(3, 3, 13);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testStudentUniversity_2')
+data.setCell(4, 2, 'com.university.tests.StudentTest')
+data.setCell(4, 3, 12);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testStudentUniversity_4All')
+data.setCell(5, 2, 'com.university.tests.StudentTest')
+data.setCell(5, 3, 10);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testUniversity_1usernames')
+data.setCell(6, 2, 'com.university.tests.UniversityTest')
+data.setCell(6, 3, 5);
+window.suiteTableData['UniSuite']= { tableData: data, tableDiv: 'times-div-UniSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 294 ms</span>
+              <div id="times-div-UniSuite">
+              </div> <!-- times-div-UniSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UniSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UniSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UniSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.university.tests.UniversityTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadData</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UniSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.university.tests.StudentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">loadData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testStudentUniversity_1</span>
+                <span class="method-start">473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStudentUniversity_2</span>
+                <span class="method-start">694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStudentUniversity_3counts</span>
+                <span class="method-start">706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStudentUniversity_4All</span>
+                <span class="method-start">722 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.university.tests.UniversityTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUniversity_1usernames</span>
+                <span class="method-start">732 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUniversity_2student</span>
+                <span class="method-start">737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUniversity_3</span>
+                <span class="method-start">755 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
